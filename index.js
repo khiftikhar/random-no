@@ -24,7 +24,10 @@ program
 program
     .command('ssn')
     .action(function (date) {
-        console.info(no_ssn(date));
+        const ssn = no_ssn(date);
+        if (ssn) {
+            console.info(ssn);
+        }
     })
     .description('Generate random Norwegian Social Security number.')
 ;

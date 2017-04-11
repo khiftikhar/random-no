@@ -4,8 +4,7 @@
   "description": "A command-line utility to generate random yet usefull values that developers need everyday",
   "main": "random-no.js",
   "dependencies": {
-    "commander": "^2.9.0",
-    "moment": "^2.18.1"
+    "commander": "^2.9.0"
   },
   "bin": {
     "random-no": "./index.js"
